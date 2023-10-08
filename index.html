@@ -6,12 +6,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Jing Conan Wang's SmartChat: GPT-3.5</title>
     <script>
+        let delay=200
         function redirectToUrlAfterDelay(url) {
           setTimeout(function() {
             window.location.href = url;
-          }, 200);  // 1000 milliseconds = 1 second[3]
+          }, delay);  // 1000 milliseconds = 1 second[3]
         }
-        redirectToUrlAfterDelay('https://www.example.com');
+        redirectToUrlAfterDelay(`https://www.google.com/search?delay${delay}ms`);
     </script></head>
     
     <body style="min-width: 25vw; width: 100%;" class="vsc-initialized">
